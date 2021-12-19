@@ -1,0 +1,46 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inknut Antiqua', serif;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+h4 {
+    font-size: 4rem;
+    font-weight: bold;
+   
+}
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.day, .hour, .minute, .second {
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+.Aylin {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
